@@ -23,8 +23,8 @@ org.checkerframework:checker-qual@2.8.1
 com.google.j2objc:j2objc-annotations@1.3
 ```
 
-Now, create a JSON object like `dep-graph.json`
-Object's schema https://github.com/snyk/dep-graph#depgraphdata
+Now, create a JSON object like `dep-graph.json` (https://github.com/snyk/bazel-simple-app/blob/master/dep-graph.json)
+Object's schema can be found here https://github.com/snyk/dep-graph#depgraphdata
 
 1. `schemaVersion` use `1.2.0` (internal versioning)
 2. `pkgManager.name` one of `deb, gomodules, gradle, maven, pip, rpm, rubygems, cocoapods`
