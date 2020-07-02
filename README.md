@@ -24,6 +24,7 @@ com.google.j2objc:j2objc-annotations@1.3
 ```
 
 Now, create a JSON object like `dep-graph.json` (https://github.com/snyk/bazel-simple-app/blob/master/dep-graph.json)
+
 Object's schema can be found here https://github.com/snyk/dep-graph#depgraphdata
 
 1. `schemaVersion` use `1.2.0` (internal versioning)
