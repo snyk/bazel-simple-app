@@ -32,3 +32,7 @@ Object's schema can be found here https://github.com/snyk/dep-graph#depgraphdata
 3. `pkgs` - JSON array of all packages in the Dep Graph. Fill it with data from the list above including ROOT NODE (name of your project).
 4. `graph` - should contain relationships between graph nodes. In Bazel case there is 1 relationship - root node to all of it dependencies.
 Fill up deps accordingly to example.
+
+## Send dep graph to Snyk API
+Explore this blog post on how to use the dep graph you've just build with Snyk API in order for your projects to get tested for vulnerabilities and be secured \
+https://support.snyk.io/hc/en-us/articles/360011549737
